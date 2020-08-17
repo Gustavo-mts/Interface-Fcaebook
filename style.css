@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+div.center{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    background-color: #3b5998;
+    padding: 8px 0;
+}
+
+div.logo{
+    float: left;
+    color: white;
+}
+
+div.logo h2{
+    font-size: 29px;
+    font-weight: normal;
+}
+
+div.clear{
+    clear: both;
+}
+
+form.form-login{
+    float: right;
+}
+
+form.form-login div.form-element{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+form.form-login div.form-element p{
+    color: white;
+    font-size: 14px;
+}
+
+form.form-login div.form-element input[type=email], form.form-login div.form-element input[type=password]{
+    margin-top: 5px;
+    border: 0;
+    padding: 3px;
+    outline: none;
+}
+
+form.form-login div.form-element input[type=submit]{
+    cursor: pointer;
+    border: none;
+    background-color: #3a6cd6;
+    color: white;
+    padding: 3px 5px;
+}
+form.form-login div.form-element input[type=submit]:hover{
+    background-color: #1f4ba6;
+}
