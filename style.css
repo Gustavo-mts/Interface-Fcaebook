@@ -63,3 +63,7 @@ form.form-login div.form-element input[type=submit]{
 form.form-login div.form-element input[type=submit]:hover{
     background-color: #1f4ba6;
 }
+
+section.main{
+    background: linear-gradient(white, #d3d8e8)
+}

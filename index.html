@@ -24,7 +24,8 @@
                     <input type="password" name="email" id=""/>
                 </div><!--form-element-->
                 <div class="form-element">
-                    <input type="submit" value="Entar" name="acao"/>
+                    <input type="submi
+                      t" value="Entar" name="acao"/>
                 </div><!--form-element-->
                 <div class="clear"></div>
             </form><!--form-->
@@ -32,6 +33,41 @@
         </div><!--center-->
     </header>
 
+    <section class="main">
+        <div class="center">
+            <div class="img-pessoas">
+                <h3>O facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida</h3>
+                <img src="" alt="">
+            </div><!--img-pessoas-->
+            <div class="abrir-conta">
+                <h2>Abra uma conta</h2>
+                <h3>É rápido e fácil</h3>
+                <form action="" class="criar-conta">
+                    <div class="w50">
+                        <input type="text" placeholder="Nome" name="" id="" />
+                    </div><!--w50-->
+                    <div class="w50">
+                        <input type="text" placeholder="Sobrenome" name="" id=""/>
+                    </div><!--w50-->
+                    <div class="w100">
+                        <input type="email" placeholder="email" name="" id=""/>
+                    </div><!--w100-->
+                    <div class="w100">
+                        <input type="password" placeholder="Senha" name="" id=""/>
+                    </div><!--w100-->
+                    <div class="w100">
+                        <h3>Data de nascimento</h3>
+                        <select name="nascimento-dia" id="data" class="nascimento">
+                            <?php
+                                for ($i=1; $i < 31; $i++){
+                            ?>
+                                <option value="<?php echo $i; ?>"><?php echo $i; ?><option> <?php } ?>       
+                        </select><!--nain-->
+                    </div><!--w100-->
+                </form>
+            </div><!--abrir-conta-->
+        </div><!--center-->
+    </section><!--main-->
     
 </body>
 </html> 
