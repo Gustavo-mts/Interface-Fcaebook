@@ -37,7 +37,7 @@
         <div class="center">
             <div class="img-pessoas">
                 <h3>O facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida</h3>
-                <img src="" alt="">
+                <img src="OBaVg52wtTZ.png" alt="">
             </div><!--img-pessoas-->
             <div class="abrir-conta">
                 <h2>Abra uma conta</h2>
@@ -62,10 +62,51 @@
                                 for ($i=1; $i < 31; $i++){
                             ?>
                                 <option value="<?php echo $i; ?>"><?php echo $i; ?><option> <?php } ?>       
-                        </select><!--nain-->
+                        </select><!--main-->
+                        <select name="nascimento-mes" id="data" class="nascimento">
+                            <option value="1">Janeiro</option>
+                            <option value="2">Fevereiro</option>
+                            <option value="3">Março</option>
+                            <option value="4">Abril</option>
+                            <option value="5">Maio</option>
+                            <option value="6">Junho</option>
+                            <option value="7">Julho</option>
+                            <option value="8">Agosto</option>
+                            <option value="1">Setembro</option>
+                            <option value="10">Outubro</option>
+                            <option value="11">Novembro</option>
+                            <option value="12">Dezembro</option>
+                        </select><!--nascimento-mes-->
+                        <select name="nascimento-ano" id="data" class="nascimento">
+                            <?php
+                                for ($i=1940; $i <= 2002; $i++) {
+                                    ?>
+                                    <option value="<?php echo $i>">><?php echo $i; ?><option>     
+                            <?php   } ?>
+                        </select>
                     </div><!--w100-->
+                    <div class="w100">
+                        <h3>Gênero</h3>
+                        <div class="input-radio">
+                            <input type="radio" value="masculino" name="sexo" id=""/>
+                            <label for="">Masculino</label>
+                        </div><!--input-radio-->
+                        <div class="input-radio">
+                            <input type="radio" value="Feminino" name="sexo" id=""/>
+                            <label for="">Feminino</label>
+                        </div><!--input-radio-->
+                        <div class="input-radio">
+                            <input type="radio" value="personalizado" name="sexo" id=""/>
+                            <label for="">Personalizado</label>
+                        </div>
+                    </div>
+                    <div class="w50">
+                        <input type="submit" value="Cadastre-se"/>
+                    </div><!--w50-->
+                    <div class="clear"></div>
                 </form>
             </div><!--abrir-conta-->
+            <div class="clear"></div>
         </div><!--center-->
     </section><!--main-->
     
