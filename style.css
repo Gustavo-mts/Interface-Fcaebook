@@ -132,4 +132,52 @@ form.criar-conta input[type=email], form.criar-conta input[type=text], form.cria
 form.criar-conta input[type=submit]{
     background:linear-gradient(#67ae55, #578843);
     background-color: #69a74e;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+form.criar-conta input[type=submit]:hover{
+    background-color: #67ae55;
+    background: linear-gradient(#81d66c, #75b85b);
+}
+
+form.criar-conta .w100 h3{
+    color: #90949c;
+    font-weight: bold;
+}
+
+form.criar-conta select.nascimento{
+    font-size: 18px;
+    float: left;
+    padding: 5px 10px;
+    border: 1px solid#ccd0d5;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+}
+
+form.criar-conta .input-radio{
+    display: inline-block;
+    padding: 0 10px 0 0;
+    margin: 0 0 15px 0;
+}
+
+form.criar-conta .input-radio label{
+    display: inline-block;
+    padding: 5px 5px 0 0;
+}
+
+form.criar-conta .input-radio input[type=radio]{
+    width: auto !important;
+    display: inline-block;
+}
+
+label{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
 }
