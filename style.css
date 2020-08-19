@@ -181,3 +181,42 @@ label{
     font-size: 18px;
     font-weight: normal;
 }
+
+section.linguas{
+    padding: 10px 0;
+}
+
+section.linguas nav ul li{
+    display: inline-block;
+}
+
+section.linguas nav ul li a{
+    color: #385898;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+section.linguas nav ul li a:hover{
+    text-decoration: none;
+}
+
+section.linguas nav ul li a.selected{
+    color: #737373;
+    cursor:auto
+}
+
+section.linguas nav ul li a.select:hover{
+    text-decoration: none;
+}
+
+section.linguas .center{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+section.linguas .center:last-child{
+    border: none;
+    padding-top: 8px;
+}
